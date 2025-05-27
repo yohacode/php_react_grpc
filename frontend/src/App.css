@@ -1,0 +1,42 @@
+/* center everything */
+.App
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f0f0f0; /* light background for contrast */
+  
+}
+
+.App-header
+{
+  margin: 10%;
+  width: 20%;
+  
+}
+
+#inputField
+{
+  padding: 12px;
+  font-size: 16px;
+  width: 100%; /* fixed width for consistency */
+  border: 1px solid #ccc; /* subtle border */
+  border-radius: 4px; /* rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* slight shadow for depth */
+  margin-bottom: 20px; /* space below the input field */  
+}
+
+.btn-info
+{
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white; /* white text for contrast */
+  background-color: #007bff; /* bootstrap primary color */
+  border: none; /* no border */
+  border-radius: 4px; /* rounded corners */
+  cursor: pointer; /* pointer cursor on hover */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* slight shadow for depth */
+}

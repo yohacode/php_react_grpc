@@ -1,0 +1,20 @@
+{
+    "name": "yohacodes/backend",
+    "description": "grpc project for merb technology test",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Test\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yohacode",
+            "email": "johnpro3269@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.1"
+    }
+}
